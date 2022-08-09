@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: whitesmoke;
+  font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -68,6 +69,24 @@ nav {
   width: 25px;
 }
 
-.active {
+/* .active {
   background: palegreen;
+} */
+
+/* Typography */
+
+.profile-bio {
+  color: ghostwhite;
+  position: absolute;
+  bottom: 25%;
+  margin: 1em;
+  text-shadow: 1px 1px 9px #222;
+}
+
+h3 {
+  margin-bottom: 0.2em;
+}
+
+p {
+  margin-top: 0;
 }

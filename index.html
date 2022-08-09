@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./index.css" />
     <title>Pawfect Match</title>
   </head>
@@ -27,17 +33,23 @@
     <div class="container">
       <div class="card-container-flex">
         <main class="profile-picture-card">
+          <div class="profile-bio">
+            <h3>Rex, 7</h3>
+            <p>I like Violet</p>
+          </div>
           <img src="./images/dog-rex.jpg" alt="" class="profile-picture" />
         </main>
       </div>
 
       <section class="interaction">
         <img
+          id="like-button"
           src="./images/icon-heart.png"
           alt="Heart Icon"
           class="icon-heart active"
         />
         <img
+          id="cross-button"
           src="./images/icon-cross.png"
           alt="Cross Icon"
           class="icon-cross active"
