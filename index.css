@@ -67,11 +67,21 @@ nav {
   margin: 0.5em 1em 1em 0;
   border-radius: 50%;
   width: 25px;
+  cursor: pointer;
 }
 
-/* .active {
-  background: palegreen;
-} */
+.icon-heart:hover,
+.icon-cross:hover {
+  background: rgb(219, 253, 246);
+}
+
+.profile-rating {
+  top: 15%;
+  left: 27%;
+  width: 175px;
+  position: absolute;
+  transform: rotate(-20deg);
+}
 
 /* Typography */
 

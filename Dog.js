@@ -7,3 +7,5 @@ class Dog {
     Object.assign(this, data);
   }
 }
+
+export default Dog;
