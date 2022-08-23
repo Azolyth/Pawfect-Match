@@ -76,9 +76,8 @@ nav {
 }
 
 .profile-rating {
-  top: 15%;
-  left: 27%;
-  width: 175px;
+  width: 155px;
+  margin: 2em 2em;
   position: absolute;
   transform: rotate(-20deg);
 }
